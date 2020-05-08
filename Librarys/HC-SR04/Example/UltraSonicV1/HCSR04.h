@@ -16,8 +16,7 @@
 #include <stdio.h>
 
 #define RB_USONIC_DDR	DDRD
-#define RB_USONIC_OUT	PORTD
-#define RB_USONIC_IN	PIND
+#define RB_USONIC_PORT	PORTD
 #define RB_USONIC_ECHO	3
 #define RB_USONIC_TRIG	4
 

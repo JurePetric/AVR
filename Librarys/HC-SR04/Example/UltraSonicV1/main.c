@@ -27,7 +27,7 @@ int main(){
 	USART_Init(9600);
 	RB_USonic_Init();
 	while(1){
-		printf("D: %.4f cm\n\r", RB_USonic_Get_Distance());
+		printf("D: %.2f cm\n\r", RB_USonic_Get_Distance());
 		_delay_ms(200);
 	}
 }
